@@ -1,0 +1,20 @@
+/*
+ *这是单独为hello mui准备的个性化css，可以覆盖标准mui的css定义；
+ * 在实际项目开发时，建议为App单独写一个css文件，从而实现项目的自定义皮肤功能；
+ * 
+ * */
+/**
+ * Created by zhangyinhua on 17/6/12.
+ */
+body{background-color: #f0f0f0 !important;}
+.cen-content{width:50%;float:left;}
+.user-avatar{border-radius:3px;}
+/*.mui-table-view-cell:after{height: 0 !important;}
+.mui-table-view:before{height:0;}*/
+.active-lists li{border-bottom:1px solid #eee;}
+.padding-box{padding:11px 15px;}
+.explain li{display:inline-block;color:#666;width:49%;padding-bottom:5px;}
+.explain li span{color:#aaa;}
+.dl-menu{padding:0 15px;height:30px;line-height: 30px;color:#b0b0b0;margin-bottom: 0;background: #f0f0f0;}
+.clickbtn{position:absolute;top:10px;right:15px;background: #fff;color:rgb(32,202,156);border:1px solid rgb(32,202,156);border-radius:3px;font-size: 12px;margin-top:5px;width:82px;height:30px;line-height: 30px;text-align:center;  }
+.last-height-none:after{height:0 !important;}
